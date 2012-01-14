@@ -15,7 +15,6 @@
   br = branch
   st = status
   dc = diff --cached
-  #taken from garybernhardt
   amend = commit --amend
   l = log --graph --abbrev-commit --date=relative
   r = !git l -20
