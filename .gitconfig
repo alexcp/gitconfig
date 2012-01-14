@@ -1,9 +1,8 @@
 [user]
-	name = Alexandre Croteau-Pothier
-	email = alexcp.com@gmail.com
+  name = Alexandre Croteau-Pothier
+  email = alexcp.com@gmail.com
 [color]
-	ui = true
-
+  ui = true
 [alias]
   ci = commit
   co = checkout
@@ -17,8 +16,8 @@
   r = !git l -20
   ra = !git r --all
 [core]
-	editor = vim
+  editor = vim
 [format]
-    pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
+  pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
 [merge]
-    tool = vimdiff
+  tool = vimdiff
