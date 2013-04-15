@@ -15,6 +15,7 @@
   l = log --graph --abbrev-commit --date=relative
   r = !git l -20
   ra = !git r --all
+  unstage = reset HEAD
 [core]
   editor = vim
 	excludesfile = .gitignore_global
