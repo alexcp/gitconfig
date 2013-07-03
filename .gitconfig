@@ -16,7 +16,7 @@
   r = !git l -20
   ra = !git r --all
   unstage = reset HEAD
-  ld = l --patch
+  ld = log --patch
 [core]
   editor = vim
 	excludesfile = .gitignore_global
