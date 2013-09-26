@@ -14,7 +14,7 @@
   amend = commit --amend
   l = log --graph --abbrev-commit --date=relative
   r = !git l -20
-  ra = !git r --all
+  ra = !git l --all
   unstage = reset HEAD
   ld = log --patch
   url =! bash -c 'git config --get remote.origin.url | sed -E "s/.+:\\(.+\\)\\.git$/https:\\\\/\\\\/github\\\\.com\\\\/\\\\1/g"'
