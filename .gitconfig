@@ -18,6 +18,7 @@
   unstage = reset HEAD
   ld = log --patch
   url =! bash -c 'git config --get remote.origin.url | sed -E "s/.+:\\(.+\\)\\.git$/https:\\\\/\\\\/github\\\\.com\\\\/\\\\1/g"'
+  ctags = !.git/hooks/ctags
 [core]
   editor = vim
 	excludesfile = .gitignore_global
@@ -25,3 +26,5 @@
   pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
 [merge]
   tool = vimdiff
+[init]
+	templatedir = ~/.git_template
