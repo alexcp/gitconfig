@@ -19,6 +19,7 @@
   ld = log --patch
   url =! bash -c 'git config --get remote.origin.url | sed -E "s/.+:\\(.+\\)\\.git$/https:\\\\/\\\\/github\\\\.com\\\\/\\\\1/g"'
   ctags = !.git/hooks/ctags
+  ctags-setup = !cp -r ~/.git_template/hooks $(git rev-parse --show-toplevel)/.git/
 [core]
   editor = vim
 	excludesfile = .gitignore_global
